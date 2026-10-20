@@ -101,7 +101,7 @@ public/
 - [ ] Replace favicon + assets in `public/`
 - [ ] Update SEO metadata (title, description, OG image)
 - [ ] Update Google Reviews link with correct Place ID
-- [ ] Update footer credit link (`VoltaNYC`) if needed
+- [ ] Update footer credit link (`Novus NYC`) if needed
 - [ ] Update legal pages (privacy policy, terms, refund policy)
 
 ---
@@ -122,4 +122,4 @@ public/
 
 ---
 
-*Built by [VoltaNYC](https://voltanyc.org/)*
+*Built by [Novus NYC](https://www.novusnyc.org/)*
