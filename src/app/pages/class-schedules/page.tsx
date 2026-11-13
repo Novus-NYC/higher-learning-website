@@ -3,31 +3,13 @@
 
 const SCHEDULES = [
   {
-    href: "/pages/class-schedules/spring-psat-sat",
-    eyebrow: "Grades 9–12",
-    title: "Fall SAT Prep",
-    titleItalic: "SAT",
-    desc: "14 Saturday sessions of expert ELA and Math instruction, starting September 12, 2026.",
-    detail: "Saturdays · 1:00 – 4:00 pm",
-    icon: "SAT",
-  },
-  {
-    href: "/pages/class-schedules/spring-weekend-schedule",
-    eyebrow: "Grades 2–7",
-    title: "Fall Weekend Schedule",
-    titleItalic: "Weekend",
-    desc: "14 Saturday sessions covering ELA, Math, grammar, SAT, and SHSAT preparation.",
-    detail: "Saturdays · Various times",
-    icon: "WKD",
-  },
-  {
-    href: "/pages/class-schedules/spring-weekday-schedule",
-    eyebrow: "Grades 4–8",
-    title: "Fall Weekday Schedule",
-    titleItalic: "Weekday",
-    desc: "Weekday ELA, Math, and SHSAT prep for Grades 4–8 beginning September 2026.",
-    detail: "Tue, Wed, Thu & Fri · After school",
-    icon: "DAY",
+    href: "/pages/class-schedules/spring-2027",
+    eyebrow: "Grades 2-12",
+    title: "Spring 2027 Schedule",
+    titleItalic: "Spring",
+    desc: "Weekday, Saturday, and SAT preparation programs beginning January 2027.",
+    detail: "Jan 23-May 22, 2027",
+    icon: "2027",
   },
 ];
 
@@ -102,7 +84,7 @@ export default function ClassSchedulesPage() {
               margin: "0 0 0.75rem",
               lineHeight: 1.1,
             }}>
-              Fall 2026{" "}
+              Spring 2027{" "}
               <em style={{
                 fontStyle: "italic",
                 background: "linear-gradient(to right, #c8922a, #e8b84b)",
@@ -114,7 +96,7 @@ export default function ClassSchedulesPage() {
               Schedules
             </h1>
             <p className="hl-hero-zh" style={{ margin: "0.15rem auto 0.8rem", textAlign: "center" }}>
-              查看秋季課程時間、年級安排與報名詳情。
+              查看春季課程時間、年級安排與報名詳情。
             </p>
             <p style={{
               fontSize: "0.95rem",
@@ -122,7 +104,7 @@ export default function ClassSchedulesPage() {
               margin: 0,
               fontFamily: "'DM Sans', system-ui, sans-serif",
             }}>
-              Choose a program below to view the full schedule and enrollment details.
+              View weekday, Saturday, and SAT preparation schedules for Spring 2027.
             </p>
           </div>
 
