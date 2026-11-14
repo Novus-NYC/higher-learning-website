@@ -6,7 +6,9 @@ import { useState, useEffect, useRef } from "react";
 import { applySiteLanguage, type SiteLanguage } from "@/lib/i18n/domTranslations";
 
 const scheduleItems = [
-  { label: "Spring 2027 Schedule", labelZh: "2027 春季課程", href: "/pages/class-schedules/spring-2027" },
+  { label: "2027 Spring SAT Prep", labelZh: "2027 春季 SAT 課程", href: "/pages/class-schedules/spring-2027-sat" },
+  { label: "2027 Spring Saturday Schedule", labelZh: "2027 春季星期六課程", href: "/pages/class-schedules/spring-2027-saturday" },
+  { label: "2027 Spring Weekday Schedule", labelZh: "2027 春季平日課程", href: "/pages/class-schedules/spring-2027-weekday" },
   { label: "2026 Fall SAT Prep", labelZh: "2026 秋季 SAT 課程", href: "/pages/class-schedules/spring-psat-sat" },
   { label: "2026 Fall Weekend Schedule", labelZh: "2026 秋季週末課程", href: "/pages/class-schedules/spring-weekend-schedule" },
   { label: "2026 Fall Weekday Schedule", labelZh: "2026 秋季平日課程", href: "/pages/class-schedules/spring-weekday-schedule" },

@@ -3,13 +3,31 @@
 
 const SCHEDULES = [
   {
-    href: "/pages/class-schedules/spring-2027",
-    eyebrow: "Grades 2-12",
-    title: "Spring 2027 Schedule",
-    titleItalic: "Spring",
-    desc: "Weekday, Saturday, and SAT preparation programs beginning January 2027.",
-    detail: "Jan 23-May 22, 2027",
-    icon: "2027",
+    href: "/pages/class-schedules/spring-2027-sat",
+    eyebrow: "Spring 2027 · Grades 9-12",
+    title: "Spring SAT Prep",
+    titleItalic: "SAT",
+    desc: "14 Saturday ELA and Math sessions beginning January 23, 2027.",
+    detail: "Saturdays · 1:00-4:00 pm",
+    icon: "SAT",
+  },
+  {
+    href: "/pages/class-schedules/spring-2027-saturday",
+    eyebrow: "Spring 2027 · Grades 2-7",
+    title: "Spring Saturday Schedule",
+    titleItalic: "Saturday",
+    desc: "ELA, Math, NY State Test, and SHSAT preparation classes.",
+    detail: "Saturdays · Various times",
+    icon: "SAT",
+  },
+  {
+    href: "/pages/class-schedules/spring-2027-weekday",
+    eyebrow: "Spring 2027 · Grades 5-7",
+    title: "Spring Weekday Schedule",
+    titleItalic: "Weekday",
+    desc: "After-school NY State Test and SHSAT preparation classes.",
+    detail: "Wed & Thu · 4:00-6:00 pm",
+    icon: "DAY",
   },
   {
     href: "/pages/class-schedules/spring-psat-sat",
